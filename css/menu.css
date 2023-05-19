@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fff url(../img/wallText.jpg);
+  background-repeat: repeat;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  position: relative;
+  max-width: 80px;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h1 {
+  font-size: 3em;
+  line-height: 80px;
+  color: #333;
+}
+
+.content .textBox p {
+  margin-top: 20px;
+  color: #333;
+}
+
+.content .textBox button {
+  margin-top: 28px;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  color: #fff;
+  background-color: #017143;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  cursor: pointer;
+  border: none;
+}
+
+.content .textBox button:hover {
+  background-color: #014b2c;
+}
+
+.content .imgBox {
+  position: relative;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: 28px;
+
+  background-color: rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.content .imgBox img {
+  max-width: 290px;
+  background-size: cover;
+}
+
+.thumb {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+
+  position: absolute;
+  left: 140px;
+  top: 500px; 
+  background-color: rgb(1, 113, 67, 0.6);
+
+  border-radius: 50%;
+}
+
+.thumb img {
+  position: absolute;
+  max-width: 300px;
+}
